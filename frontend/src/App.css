@@ -1,0 +1,171 @@
+/* ----------------- Global ----------------- */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e6f0ff; /* light blue page background */
+  color: #fff;
+}
+
+h1, h2 {
+  color: #fff;
+  text-align: center;
+}
+
+/* ----------------- Login/Register ----------------- */
+.auth-container {
+  background-color: #0077cc; /* main blue container */
+  color: #fff;
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.auth-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+
+.auth-container button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  background-color: #00aaff; /* vibrant button blue */
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.auth-container button:hover {
+  background-color: #0088cc; /* darker blue hover */
+}
+
+/* ----------------- Project List ----------------- */
+.project-list {
+  width: 600px;
+  margin: 20px auto;
+  text-align: left;
+  background-color: #3399ff; /* lighter blue for project container */
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.project-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-list li {
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 8px;
+  background-color: #0077cc; /* project item blue */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-list li button {
+  background-color: #00aaff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project-list li button:hover {
+  background-color: #0088cc;
+}
+
+/* ----------------- Chat Interface ----------------- */
+.chat-container {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #0077cc; /* main chat background */
+  border-radius: 12px;
+  color: #fff;
+}
+
+.chat-messages {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin: 5px 0;
+  padding: 10px 15px;
+  border-radius: 12px;
+  max-width: 80%;
+}
+
+.user-message {
+  background-color: #00aaff;
+  color: #fff;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.bot-message {
+  background-color: #3399ff;
+  color: #fff;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+
+.chat-input button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  background-color: #00aaff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.chat-input button:hover {
+  background-color: #0088cc;
+}
+
+/* ----------------- Back Button ----------------- */
+button.back-button {
+  margin-bottom: 10px;
+  background-color: #00aaff;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button.back-button:hover {
+  background-color: #0088cc;
+}
